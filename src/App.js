@@ -33,11 +33,6 @@ function App() {
     setBaseCurrencySelect(baseCurrencySelect)
   }
 
-  console.log('baseCurrencySelect>', baseCurrencySelect)
-  console.log('inputSelect>', inputSelect)
-  console.log('data.rates[inputSelect]', data.rates[inputSelect])
-  console.log('data.rates[baseCurrencySelect]', data.rates[baseCurrencySelect])
-
   return (
     <div className="App">
       <header className="header">
